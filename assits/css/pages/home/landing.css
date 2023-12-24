@@ -1,0 +1,77 @@
+.landing-left img {
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.landing-right {
+    border-radius: 5px;
+}
+
+/* .landing-right .card-item img {
+    height: 170px;
+
+} */
+
+.landing-right {
+    height: auto;
+}
+
+.card-item {
+    width: 50%;
+    padding: 7px;
+    /* margin-right: 15px;
+    margin-bottom: 15px; */
+}
+
+.card-item img {
+    border-radius: 5px;
+}
+
+.card-item a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .card-item a::before {
+    bottom: 0;
+    content: "";
+    left: 50%;
+    opacity: 1;
+    position: absolute;
+    right: 51%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-item a::after {
+    bottom: 50%;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+
+.card-item img:hover a::before {
+    left: 0;
+    opacity: 0;
+    right: 0;
+    transition: all 900ms ease-in-out 0s;
+
+}
+
+.card-item:hover a::after {
+    left: 0;
+    opacity: 0;
+    right: 0;
+    transition: all 900ms ease-in-out 0s;
+
+} */

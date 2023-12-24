@@ -1,0 +1,80 @@
+.aff p {
+    margin: 0 0 15px;
+    font: 400 13px/20px "Poppins", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.aff .well {
+    background: #fff;
+    min-height: 274px;
+    border: 1px solid #e5e5e5;
+    margin: 0;
+    line-height: 23px;
+    border-radius: 0;
+    padding: 19px;
+}
+
+.aff h2 {
+    color: #111;
+    font: 600 18px/25px "Poppins", Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+.aff .btn-primary {
+    background: #18385a;
+    border-radius: 25px;
+    color: #fff;
+    font: 500 13px/22px "Poppins", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 300ms ease-in-out;
+}
+
+.btn-primary::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffd200;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+    transform: translate(0, -100%);
+    transition-timing-function: cubic-bezier(.75, 0, .125, 1);
+    z-index: -1;
+    border-radius: 25px;
+    border-color: #ffd200;
+}
+
+.btn-primary:hover::after {
+    transform: translate(0, 0);
+}
+
+.form-group  {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input {
+    border-radius: 2px;
+}
+
+.form-group input:focus {
+    box-shadow: none;
+}
+
+.form-group input::placeholder {
+    font-size: 13px;
+}

@@ -1,0 +1,184 @@
+aside {
+    box-sizing: border-box;
+    min-height: 1px;
+
+}
+
+.all-aside .left-right-inner .panel-default {
+    background: none;
+    /* float: left; */
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.all-aside .left-right-inner .panel-default .panel-heading {
+    background: #ffd200 none repeat scroll 0 0;
+    border: none;
+    color: #111;
+    /* float: left; */
+    font: 600 15px/18px "Poppins", Helvetica, sans-serif;
+    margin: 0 0 10px;
+    padding: 12px 15px;
+    position: relative;
+    text-align: start;
+    text-transform: capitalize;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.all-aside .list-group .list-group-item {
+    color: #666;
+    cursor: pointer;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0;
+    z-index: 1;
+    border: none !important;
+}
+
+.all-aside .swiper img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.all-aside .box-content {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    /* float: left; */
+    /* margin: 0 0 20px; */
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.all-aside .box-content h4 {
+    background: #ffd200 none repeat scroll 0 0;
+    border: none;
+    color: #111;
+    float: left;
+    font: 600 15px/18px "Poppins", Helvetica, sans-serif;
+    margin: 0 0 10px;
+    padding: 12px 15px;
+    position: relative;
+    text-align: start;
+    text-transform: capitalize;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.all-aside .box-content .content {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.all-aside .box-content ul {
+    text-align: center;
+}
+
+.all-aside .box-content ul li img {
+    border-radius: 5px;
+}
+
+.all-aside .box-content ul li h3 {
+    color: #000;
+    font: 600 15px/18px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.all-aside .box-content ul li span {
+    font: 400 13px/15px "poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #666;
+}
+
+.all-aside .box-content ul li p {
+    font: 400 13px/24px "poppins", Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.all-aside .last-aside {
+    border: 1px solid #e5e5e5;
+    /* float: left; */
+    margin: 0 0 20px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    position: sticky;
+}
+
+.all-aside .last-aside .box-heading {
+    background: #ffd200 none repeat scroll 0 0;
+    border: none;
+    color: #111;
+    font: 609 15px/18px "Poppins", Helvetica, sans-serif;
+    margin: 0 0 10px;
+    padding: 12px 15px;
+    /* position: relative; */
+    text-align: start;
+    text-transform: capitalize;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.all-aside .last-aside .box-heading h3 {
+    color: #111111;
+    font: 600 16px/18px "Poppins", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.all-aside .last-aside .producte {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+
+.all-aside .last-aside .producte .product-info {
+    padding: 5px 0 0 0;
+    position: relative;
+    top: 0;
+    left: -16px;
+}
+
+.all-aside .last-aside .producte:last-child {
+    border-bottom: none;
+}
+
+.all-aside .last-aside .featured-items .product-img {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.all-aside .last-aside .featured-items .product-img img {
+    border: none
+}
+
+.all-aside .last-aside .featured-items .product-info h4 {
+    font-size: 13px;
+}
+
+.all-aside .last-aside .featured-items .product-info a {
+    color: #111;
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.all-aside .last-aside .featured-items .product-info span {
+    font: 600 13px/18px "Poppins", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 0 5px;
+    display: block;
+    color: #111;
+}

@@ -1,0 +1,66 @@
+.gift .right-side #content p {
+    margin: 0 0 15px;
+}
+
+.gift .right-side #content .form-group {
+    margin-bottom: 15px;
+}
+
+/* .form-horizontal .form-group {
+    margin-right: 15px;
+    margin-left: 15px;
+} */
+
+.form-horizontal textarea {
+    height: 150px !important;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+div.required .control-label:before {
+    content: '* ';
+    color: #F00;
+    font-weight: bold;
+}
+
+.gift .right-side #content .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    /* transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
+}
+
+.buttons.clearfix {
+    margin: 15px 0 0;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-right .btn {
+    background: #18385a;
+    border-radius: 25px;
+    color: #fff;
+    font: 500 13px/22px "Poppins", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border: none;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 300ms ease-in-out;
+}

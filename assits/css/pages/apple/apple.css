@@ -1,0 +1,70 @@
+.apple-main .category-filter {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin: 25px 0 30px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.category-filter .filter-grid-list {
+    padding: 0;
+    width: 120px;
+    float: left;
+}
+
+.category-filter .filter-grid-list .btn-group {
+    float: left;
+    width: 100%;
+}
+
+.category-filter .filter-grid-list .btn-group button {
+    border: none;
+}
+
+.category-filter .filter-show {
+    max-width: 140px;
+    float: right;
+}
+
+.category-filter .filter-text {
+    padding: 8px 5px 0 0;
+    margin: 0;
+    text-align: start;
+    float: left;
+}
+
+.category-filter .filter-show .filter-selection {
+    width: 70px;
+    float: left;
+}
+
+.category-filter .filter-sort-by {
+    width: 100%;
+    max-width: 250px;
+    float: right;
+}
+
+.category-filter .filter-sort-by .filter-selection {
+    float: left;
+    width: 160px;
+}
+
+.apple .button-group {
+    padding: 10px 0 10px 50px;
+}
+
+.apple .button-group {
+    opacity: 0;
+    visibility: hidden;
+    text-wrap: nowrap;
+    transition: all .5s ease-in-out;
+}
+
+.apple .card:hover .button-group {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transform: translate(0, -10%);
+}

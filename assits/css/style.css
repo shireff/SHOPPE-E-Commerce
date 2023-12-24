@@ -1,0 +1,22 @@
+/* Vendors */
+@import url(./vendors/all.css);
+@import url(./vendors/bootstrap.min.css);
+@import url(./vendors/animate.css);
+/* Vendors */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(./base/base.css);
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+@import url(./pages/home/landing.css);
+@import url(./pages/home/aside.css);
+@import url(./pages/home/home.css);
+@import url(./pages/Brands/brands.css);
+@import url(./pages/gift/gift.css);
+@import url(./pages/affiliate/affiliate.css);
+@import url(./pages/register/register.css);
+@import url(./pages/Contact/contact.css);
+@import url(./pages/apple/apple.css);
+
+/* Product */
+@import url(./pages/shop/product-card-one.css);
+@import url(./pages/shop/canon.css);

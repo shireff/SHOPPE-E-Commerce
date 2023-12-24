@@ -1,0 +1,630 @@
+.landing .main {
+    margin-top: 33px;
+}
+
+.main .top-title {
+    border-bottom: 2px solid #ffd200;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.box-heading {
+    padding: 8px 0 0;
+}
+
+.box-heading h3 {
+    font: 600 22px/30px "poppins", Helvetica, sans-serif;
+    position: relative;
+    letter-spacing: .4px;
+}
+
+.box-heading h3::after {
+    content: "";
+    border-bottom: 4px solid #ffd200;
+    bottom: -13px;
+    left: 0;
+    position: absolute;
+    right: auto;
+    width: 60px;
+    transition: all 500ms ease-in-out;
+}
+
+.box-heading:hover h3::after {
+    width: 120px;
+}
+
+.landing .main .title-right .nav-tabs {
+    border-bottom: none;
+    display: flex;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+}
+
+.landing .main .title-right .nav-tabs li {
+    position: relative;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 0;
+}
+
+.landing .main .title-right .nav-tabs li a {
+    color: #000;
+    font: 600 13px/20px "Poppins", Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.landing .main .title-right .nav-tabs .active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffd200;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+/* .card .card-img-h {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.card .card-img-top:hover {
+    display: none;
+}
+
+.card :hover .card-img-h {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+} */
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card .rating {
+    text-align: center;
+    /* border-bottom: 1px solid #e5e5e5; */
+    /* display: block; */
+}
+
+/* .space {
+    height: 480px;
+    padding: 36px 0 0 0;
+} */
+
+.card .card-body h4 {
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    /* margin: 15px 0 5px; */
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    border-top: double 4px #e5e5e5;
+    padding: 10px 0;
+}
+
+.card .card-body a {
+    color: #111;
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.card .card-body .price {
+    text-align: center;
+    color: #18385a;
+    font: 600 15px/20px "Poppins", Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sub a img {
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.deal {
+    border: 3px solid #ffd200;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+}
+
+.left {
+    background-color: #f5f5f5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.left:hover {
+    background-color: black
+}
+
+.left:hover i {
+    color: white
+}
+
+.left i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    background-color: #f5f5f5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.right i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right:hover {
+    background-color: black
+}
+
+.right:hover i {
+    color: white
+}
+
+.deal .box-heading {
+    border-bottom: 2px solid #ffd200;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.deal h3 {
+    color: #000;
+    /* display: inline-block; */
+    font: 600 22px/30px "poppins", Helvetica, sans-serif;
+    margin: 0;
+    position: relative;
+    text-transform: capitalize;
+    width: auto;
+    letter-spacing: .4px;
+    z-index: 1;
+    padding: 0;
+}
+
+.deal h3::after {
+    border-bottom: 4px solid #ffd200;
+    bottom: -13px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: auto;
+    width: 60px;
+    transition: all 500ms ease-in-out;
+}
+
+.deal h3:hover::after {
+    width: 120px;
+}
+
+.deal .pro-info {
+    border-left: double 4px #e5e5e5;
+    padding: 15px;
+}
+
+.deal .caption h4 {
+    /* font: 400 13px/18px "Poppins", Helvetica, sans-serif; */
+    margin: 15px 0 5px;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    /* float: left; */
+    width: 100%;
+}
+
+.deal .caption h4 a {
+    color: #222;
+    font: 500 16px/24px "Poppins", Helvetica, sans-serif;
+}
+
+.deal .description {
+    color: #666;
+    /* display: block; */
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    /* float: left; */
+    width: 100%;
+    margin: 8px 0;
+}
+
+.deal .price {
+    font: 600 16px/32px "Poppins", Helvetica, sans-serif;
+    color: #222;
+    padding: 0 0 10px;
+}
+
+.deal .price .price-new {
+    font: 600 16px/32px "Poppins", Helvetica, sans-serif;
+    color: #222;
+    padding: 0 0 10px;
+}
+
+.deal .price .price-old {
+    color: #555;
+    text-decoration: line-through;
+    font: 400 14px/18px "Poppins", Helvetica, sans-serif;
+}
+
+/* .button-group {
+    position: static;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 50;
+    opacity: 1;
+
+    display: inline-block;
+} */
+
+.button-group {
+    padding: 10px;
+}
+
+.button-group .btn-cart {
+    background: #18385a;
+    /* border-color: #18385a; */
+    border: none;
+    border-radius: 25px;
+    padding: 8px 15px;
+    position: relative;
+    width: auto;
+    z-index: 1;
+    transition: all 500ms ease-in-out 0s;
+    margin-bottom: 5px;
+}
+
+.button-group .btn-cart i {
+    vertical-align: top;
+}
+
+.button-group button {
+    background: #18385a;
+    border: none;
+    padding: 0;
+    position: relative;
+    border-radius: 50%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    width: 42px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.6s ease-in-out 0ms;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.button-group button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #ffd200;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+    transform: translate(0, -100%);
+    transition-timing-function: cubic-bezier(.75, 0, .125, 1);
+    border-radius: 50px;
+}
+
+.button-group button:hover::before, .product-thumb .button-group button:focus::before, .product-thumb .button-group button:active::before {
+    transform: translate(0, 0);
+}
+
+.button-group button .btn-cart {
+    vertical-align: top;
+}
+
+.button-group button i {
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    color: white;
+    transition: all 400ms ease-in-out;
+    vertical-align: middle;
+}
+
+.button-group button.btn-cart span {
+    color: #fff;
+    /* display: inline-block !important; */
+    font: 500 13px/24px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    vertical-align: top;
+    transition: all 400ms ease-in-out;
+    letter-spacing: 1px;
+}
+
+.button-group button:hover i {
+    color: black;
+    background: #ffd200;
+    border-color: #ffd200;
+}
+
+.button-group .btn-cart:hover span {
+    color: black;
+}
+
+.deal .ttqtyprogress {
+    color: #000;
+    /* float: left; */
+    font-size: 13px;
+    line-height: 20px;
+    text-align: start;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.ttqtyprogress .QuantityAvailable {
+    /* float: left; */
+    width: auto;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0 3px 0 0;
+    display: inline-block;
+}
+
+.ttqtyprogress .quantity {
+    display: inline-block;
+    font-weight: 400;
+    color: #000;
+    vertical-align: top;
+}
+
+.ttqtyprogress .progress {
+    background: #fed700;
+    border-radius: 25px;
+    height: 10px;
+    margin: 5px 0 0 0;
+    width: 100%;
+}
+
+.products .last {
+    padding: 15px 20px 20px;
+}
+
+.products .last .box-heading {
+    border-bottom: 2px solid #ffd200;
+    /* float: left; */
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 0 20px px;
+}
+
+.products .last .box-heading h3 {
+    color: #000;
+    display: inline-block;
+    font: 600 22px/30px "poppins", Helvetica, sans-serif;
+    margin: 0;
+    position: relative;
+    text-transform: capitalize;
+    width: auto;
+    letter-spacing: .4px;
+    z-index: 1;
+    padding: 0;
+}
+
+.best .box-heading {
+    border-bottom: 2px solid #ffd200;
+    /* float: left; */
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.best .box-heading h3 {
+    font: 600 22px/30px "poppins", Helvetica, sans-serif;
+    color: #000;
+}
+
+.product {
+    padding: 10px 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.product img {
+    border-right: double 4px #e5e5e5;
+}
+
+.product .desc {
+    padding: 0 10px;
+}
+
+.product .caption h4 a {
+    color: #111;
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.rating span.fa-stack {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.rating .fa-stack i, #review i {
+    color: #ffbf34;
+    font-size: 16px;
+    width: 18px;
+    padding: 10px 0;
+}
+
+.product .price {
+    color: #18385a;
+    font: 600 15px/20px "Poppins", Helvetica, sans-serif;
+    width: 100%;
+    padding: 13px 0;
+}
+
+.product .button-group {
+    text-wrap: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.product:hover .button-group {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-product img {
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.desc .caption h4 {
+    margin: 10px 0;
+}
+
+.desc .caption h4 a {
+    color: #000;
+    font: 600 16px/24px "Poppins", Helvetica, sans-serif;
+    margin: 0;
+    text-transform: capitalize;
+    white-space: nowrap;
+    padding: 0 0 6px;
+}
+
+
+.hot .desc .caption .cat-sub li a {
+    color: #777;
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    padding: 5px 0 5px 10px;
+    width: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.hot .desc .caption .cat-sub li a::before {
+    content: ".";
+    font-size: 29px;
+    left: 0;
+    position: absolute;
+    top: -3px;
+}
+
+.hot .desc .caption .cat-sub li a:hover {
+    color: #000000;
+}
+
+.feature .button-group {
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+    text-wrap: nowrap;
+    transition: all .5s ease-in-out;
+}
+
+.feature .card:hover .button-group {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transform: translate(0, -10%);
+}
+
+.latest-blog img {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.latest-blog .card-body h5 a {
+    color: #222;
+    font: 500 15px/20px "Poppins", Helvetica, sans-serif;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.latest-blog .card-body p {
+    color: #666;
+    font: 400 13px/20px "Poppins", Helvetica, sans-serif;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+.latest-blog .meta_button .read-more {
+    float: left;
+    text-transform: capitalize;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: #666;
+    font: 400 13px/18px "Poppins", Helvetica, sans-serif;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+
+.latest-blog .meta_button .read-more::after {
+    vertical-align: middle;
+    padding: 0 5px 0 0;
+    font-size: 13px;
+    line-height: 20px;
+    content: "\e5cc";
+    font-family: "Material Icons";
+}
+
+.latest-blog .comment {
+    float: left;
+    width: auto;
+    padding: 0 5px;
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.latest-blog .comment a {
+    color: #777;
+    font-size: 13px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.latest-blog .comment i {
+    font-size: 14px;
+    color: #777;
+    line-height: 18px;
+    vertical-align: middle;
+}

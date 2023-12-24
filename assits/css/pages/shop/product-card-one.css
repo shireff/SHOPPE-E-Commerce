@@ -1,0 +1,440 @@
+.owl-stage {
+    width: 208px;
+    margin-left: 80px;
+}
+
+.additional-images .owl-stage .active {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* float: left; */
+}
+
+.product-image {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.product-image .thumbnail {
+    background: none;
+    padding: 0;
+    overflow: hidden;
+    transition: none;
+    position: relative;
+    border-radius: 5px;
+}
+
+.thumbnails .owl-carousel.additional-images {
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.additional-images .image-additional {
+    display: block;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.product-details h1.product-name {
+    border-bottom: 1px solid #e5e5e5;
+    color: #111;
+    margin: 0 0 12px;
+    padding-bottom: 12px;
+    text-transform: capitalize;
+    font: 600 16px/20px "Poppins", Helvetica, sans-serif;
+}
+
+.rating .product-rating {
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    height: 20px;
+}
+
+.rating span.fa-stack, #review span.fa-stack {
+    width: 13px;
+    height: 13px;
+    /* display: inline-block; */
+    /* float: none; */
+    vertical-align: top;
+    font-size: 13px;
+    padding: 0 !important;
+}
+
+.rating .fa-stack i, #review i {
+    padding: 0;
+}
+
+
+.product-total-review i, .product-write-review i {
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.product-details .rating>a {
+    border-right: 1px solid #e5e5e5;
+    color: #666;
+    float: left;
+    font-size: 13px;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    height: 20px;
+}
+
+.product-details .rating>a:last-child {
+    border-right: medium none;
+    margin-right: 0;
+}
+
+.product-details table.product-info {
+    margin: 15px 0 0;
+}
+
+.product-details .product-info tr td {
+    color: #222222;
+    text-transform: capitalize;
+    padding: 3px;
+}
+
+.product-details .product-info .product-info-value {
+    color: #777;
+    padding: 3px 3px 3px 10px;
+    font-weight: normal;
+}
+
+.product-info .product-info-value a {
+    color: #333;
+    font-weight: 500;
+}
+
+.product-details .product-price {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0;
+    margin: 15px 0;
+    /* float: left; */
+    width: 100%;
+}
+
+.product-details ul.product-price h2 {
+    font: 600 18px/20px "Poppins", Helvetica, sans-serif;
+    color: #18385a;
+}
+
+.product-details .product-tax {
+    margin-top: 10px;
+}
+
+.product-price .product-reward-points {
+    padding: 5px 0;
+}
+
+.product-details .product-options h3 {
+    margin: 10px 0;
+    font: 600 16px/22px "Poppins", Helvetica, sans-serif;
+}
+
+.form-group input::placeholder {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+
+.product-product .control-label {
+    color: #222;
+}
+
+.form-group select:first-child {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.form-group textarea {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.product-product .btn.btn-default {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    color: #666;
+    padding: 4px 15px;
+    font-weight: 400;
+    height: 39px;
+    transition: all 400ms ease-in-out;
+}
+
+/* .form-group .btn-block i .file-upload {
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 26px;
+} */
+
+.form-group .btn.btn-default {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    /* border-radius: 20%; */
+    color: #666;
+    padding: 4px 15px;
+    font-weight: 400;
+    height: 39px;
+    transition: all 400ms ease-in-out;
+    margin-left: 4px;
+}
+
+.form-group .btn-block i.file-upload {
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 26px;
+}
+
+.product-quantity label, .product-quantity #input-quantity {
+    width: auto;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 10px 0;
+    float: left;
+}
+
+.product-quantity #input-quantity {
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    float: left;
+    height: 42px;
+    line-height: 27px;
+    padding: 0 6px;
+    text-align: center;
+    width: 60px;
+}
+
+.product-details .btn-block {
+    background: #18385a;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    float: left;
+    font: 500 13px/26px "Poppins", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding: 7px 18px 8px 42px;
+    position: relative;
+    text-transform: capitalize;
+    height: 42px;
+}
+
+.product-details #button-cartt::before {
+    content: "\e8cc";
+    font-family: "Material Icons";
+    font-size: 20px;
+    left: 8px;
+    margin: auto;
+    position: absolute;
+    right: auto;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.product-options .alert-info {
+    background-color: #d9edf7;
+    color: #31708f;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    position: static;
+    width: 100%;
+}
+
+.product-options .alert-info i.info-circle {
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: top;
+    font-weight: 500;
+}
+
+.product-details .btn.btn-default.product-btn-wishlist, .product-details .btn.btn-default.product-btn-compare {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    text-transform: none;
+    border: none;
+    background: none;
+    padding: 0 15px 0 0;
+    margin: 5px 0;
+    line-height: 30px;
+}
+
+.product-details .btn-group .btn-default i {
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+.product-tabs {
+    /* clear: both; */
+    margin: 30px 0;
+    background: #fff;
+    padding: 15px 25px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    /* float: left; */
+    width: 100%;
+}
+
+.product-tabs .nav.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 -4px;
+    list-style: outside none none;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.product-tabs .nav.nav-tabs li {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+}
+
+.product-tabs .nav.nav-tabs a {
+    font: 500 14px/22px "Poppins", Helvetica, sans-serif;
+    color: #111;
+}
+
+.product-tabs .nav.nav-tabs .active {
+    border: #ffd200;
+    background: #ffd200;
+    border-radius: 25%;
+    /* padding: 10px 15px; */
+
+}
+
+.electro-description .layout-desc {
+    margin: 20px 0;
+}
+
+.hightlights h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tab-content ul {
+    padding: 0 0 0 15px;
+    list-style: disc;
+    margin-bottom: 15px;
+}
+
+
+.tdright {
+    float: right;
+    margin-left: 30px;
+}
+
+td .image {
+    width: 500px;
+}
+
+
+.tdright h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.lefttt {
+    /* text-align: start; */
+    float: left;
+    color: #777777;
+    padding: 0;
+    /* width: 33.3333%; */
+}
+
+.righttt {
+    /* text-align: start; */
+    /* float: right; */
+    color: #111111;
+    padding: 0;
+    text-wrap: nowrap;
+    padding-left: 138px;
+
+}
+
+.rightttt {
+    text-align: start;
+    color: #111111;
+    padding: 0;
+    text-wrap: wrap;
+    padding-left: 138px;
+
+}
+
+.privacy h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 20px 0 10px 0;
+}
+
+.privacy p {
+    margin: 0 0 15px;
+}
+
+.related .box-heading {
+    border-bottom: 2px solid #ffd200;
+    /* float: left; */
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.related .box-heading h3 {
+    font: 600 22px/30px "poppins", Helvetica, sans-serif;
+    position: relative;
+    letter-spacing: .4px;
+}
+
+.related .box-heading h3::after {
+    content: "";
+    border-bottom: 4px solid #ffd200;
+    bottom: -13px;
+    left: 0;
+    position: absolute;
+    right: auto;
+    width: 60px;
+    transition: all 500ms ease-in-out;
+}
+
+.related .box-heading:hover h3::after {
+    width: 120px;
+}
+
+.related .button-group {
+    padding: 10px 0 10px 50px;
+}
+
+.related .button-group {
+    opacity: 0;
+    visibility: hidden;
+    text-wrap: nowrap;
+    transition: all .5s ease-in-out;
+}
+
+.related .card:hover .button-group {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transform: translate(0, -10%);
+}

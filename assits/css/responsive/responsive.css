@@ -1,0 +1,167 @@
+/* Home */
+
+@media (max-width: 992px) {
+    #toplink_block {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .header-right {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .main-category-list {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .header-bottom-right {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    aside {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .box-heading h3::after {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .top-title .box-heading {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .header-search {
+        display: block;
+    }
+
+    .deal {
+        margin-bottom: 30px;
+    }
+
+    .product .button-group {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .sm-h {
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+
+    }
+
+    footer .newletter-title {
+        margin: 0 0 10px;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .newletter-title h2, h2::before {
+        text-align: center !important;
+    }
+
+    .newletter-title h2::before {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #dialog-normal .newleter-content {
+        float: none;
+        width: 100%;
+    }
+
+    footer .allcard {
+        border-right: none;
+    }
+
+    footer .bot-img-tit {
+        padding: 10px 0 0;
+    }
+
+    .ttcmsfooter {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .ttcmsfooter .title_block, .ttcmsfooter .ttfooter-desc {
+        text-align: center;
+    }
+
+    .wallmart_logo_block {
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    footer .ttfootertop-link {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #ttcmspaymentlogo {
+        float: left;
+        width: 100%;
+        padding: 10px 0;
+        border-top: none;
+        border-left: none;
+        margin-top: 10px;
+    }
+
+    #ttcmspaymentlogo .payment_logo_block ul {
+        text-align: center;
+    }
+
+    #ttcmspaymentlogo ul li {
+        padding: 10px;
+    }
+
+    .footer-bottom-last {
+        text-align: center;
+    }
+
+    .footer-bottom-link {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-bottom .footer-bottom-link p {
+        padding: 8px 0;
+    }
+
+    .footer-bottom-cms {
+        float: none;
+    }
+
+    .follow-us {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    footer .bot-img-tit {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* End Home */
+/* gift */
+@media (max-width: 992px) {
+    
+
+}

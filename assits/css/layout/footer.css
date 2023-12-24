@@ -1,0 +1,447 @@
+footer .footer-top {
+    float: left;
+    position: relative;
+    width: 100%;
+    background: #ffd200;
+}
+
+footer #footer-top {
+    padding: 50px 0 0 10px
+}
+
+.newletter-subscribe {
+    float: right;
+    padding: 0 2% 30px;
+    width: 100%;
+    background: none;
+}
+
+#newletter-boxes {
+    float: left;
+    width: 100%;
+}
+
+.newletter-subscribe .box {
+    float: left;
+    width: 100%;
+}
+
+#dialog-normal .newletter-title {
+    float: left;
+    text-align: left;
+    position: relative;
+    padding: 0;
+}
+
+#dialog-normal .newletter-title h2 {
+    position: relative;
+    border: medium none;
+    color: #000;
+    float: left;
+    font: 600 28px/38px "Poppins", Helvetica, sans-serif;
+    margin: 6px 0;
+    padding: 0 0 0 50px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+#dialog-normal .newletter-title h2::before {
+    content: "\e554";
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42px;
+    font-family: 'Material Icons';
+    font-size: 38px;
+    margin: auto;
+    background: none;
+    color: #000;
+    bottom: 0;
+    line-height: 42px;
+}
+
+#dialog-normal .newleter-content {
+    float: right;
+    padding: 0;
+    width: 55%;
+}
+
+#form_subscribe {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#subscribe_email {
+    height: 45px;
+    background: #ffffff none repeat scroll 0 0;
+    border: none;
+    color: #000;
+    float: left;
+    overflow: hidden;
+    padding: 0 120px 0 15px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.05);
+    letter-spacing: 1px;
+}
+
+#subscribe .btn {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 20px;
+    background: #000 none repeat scroll 0 0;
+    border-radius: 25px;
+    height: 45px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    line-height: 28px;
+}
+
+/* footer .all-footer {
+    padding: 30px;
+} */
+
+/* footer .footer-top-left {
+    width: 41.66666667%;
+} */
+
+footer .footer-top-left h2 {
+    position: relative;
+    border: medium none;
+    color: #000;
+    /* float: left; */
+    font: 600 28px/38px "Poppins", Helvetica, sans-serif;
+    margin: 6px 0;
+    padding: 0 0 0 50px;
+    text-align: start;
+    text-transform: capitalize;
+    /* width: 100%; */
+    text-wrap: nowrap;
+}
+
+footer .footer-top-left h2::before {
+    content: "\e554";
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42px;
+    font-family: 'Material Icons';
+    font-size: 38px;
+    margin: auto;
+    background: none;
+    border: none;
+    color: #000;
+    bottom: 0;
+    line-height: 42px;
+}
+
+
+.subscribe_email {
+    height: 45px;
+    background: #ffffff none repeat scroll 0 0;
+    border: none;
+    color: #000;
+    overflow: hidden;
+    padding: 0 120px 0 15px;
+    width: 100%;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.form .btn {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 20px;
+    background: #000 none repeat scroll 0 0;
+    border-radius: 25px;
+    color: #fff;
+    height: 45px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    line-height: 28px;
+}
+
+footer .footer-bottom {
+    background-color: #191919;
+    text-align: center;
+}
+
+footer .sub-footer-bottom {
+    padding: 40px 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+footer .bottom-img {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+footer .bot-img {
+    background: url(../../img/home/header/footer-services-sprite.png) repeat scroll -5px -205px;
+    float: left;
+    height: 50px;
+    width: 60px;
+    transition: all 400ms ease-in-out 0s;
+}
+
+.allcard .two {
+    background: url(../../img/home/header/footer-services-sprite.png) repeat scroll -5px -302px;
+
+}
+
+.allcard .three {
+    background: url(../../img/home/header/footer-services-sprite.png) repeat scroll -5px -485px;
+
+}
+
+.allcard .four {
+    background: url(../../img/home/header/footer-services-sprite.png) repeat scroll -5px -392px;
+
+}
+
+footer .allcard {
+    display: block;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+footer .bot-img-tit {
+    display: inline-block;
+    text-align: left;
+    float: none;
+    vertical-align: middle;
+    padding: 0 0 0 10px;
+}
+
+footer .allcard .bot-img-tit .service-title {
+    color: #fff;
+    font: 500 15px/25px "Poppins", Helvetica, sans-serif;
+}
+
+footer .allcard .bot-img-tit .service-desc {
+    font: 400 13px/20px "Poppins", Helvetica, sans-serif;
+    color: #777;
+}
+
+.footer-card {
+    margin: 50px 0;
+}
+
+.ttcmsfooter .title_block {
+    color: #fff;
+    cursor: pointer;
+    font: 500 16px/22px "Poppins", Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    /* position: relative; */
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+.ttcmsfooter .ttfooter-desc {
+    color: #888;
+    font: 500 13px/22px "Poppins", Helvetica, sans-serif;
+    text-align: start;
+}
+
+.wallmart_logo_block {
+    margin: 15px 0 0;
+}
+
+footer .wallmart_logo_block .wallmart-list li {
+    float: left;
+    width: auto;
+    margin: 0 20px 0 0;
+}
+
+footer h5 {
+    color: #ffffff;
+    cursor: pointer;
+    font: 500 16px/22px "Poppins", Helvetica, sans-serif;
+    margin: 0 0 20px;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+footer .list-unstyled li {
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 0 5px;
+}
+
+footer a {
+    color: #888;
+    cursor: pointer;
+    font: 500 13px/24px "Poppins", Helvetica, sans-serif;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer ul {
+    text-align: start;
+}
+
+footer .footer-extras ul li i {
+    float: left;
+    height: 25px;
+    margin: 0 5px 0 0;
+    padding: 3px 0;
+    text-align: center;
+    width: 25px;
+    font-size: 18px;
+}
+
+footer .footer-extras .data .contact-address {
+    padding: 0 0 0 30px;
+}
+
+footer .list-unstyled div {
+    color: #888;
+}
+
+footer .list-unstyled div {
+    color: #888;
+}
+
+.bottom-footer-main {
+    float: left;
+    width: 100%;
+    padding: 0;
+    background-color: #191919;
+}
+
+.bottom-footer-main .ttfootertop-link {
+    width: 76%;
+    float: left;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.bottom-footer-main .footer-column {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.bottom-footer-main .footer-column h5 {
+    font: 500 13px/24px "Poppins", Helvetica, sans-serif;
+    float: left;
+    width: auto;
+    margin: 0;
+    position: relative;
+    padding: 0 6px 0 0;
+}
+
+.bottom-footer-main .footer-column h5::after {
+    position: absolute;
+    content: ":";
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.bottom-footer-main .footer-column .list-unstyled li {
+    margin-bottom: 0;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: auto;
+    text-align: start;
+    padding: 0 7px;
+}
+
+.bottom-footer-main .footer-column ul li a::after {
+    position: absolute;
+    content: '-';
+    top: 2px;
+    left: auto;
+    right: -5px;
+    bottom: 0;
+    margin: auto;
+    color: #aaa;
+}
+
+#ttcmspaymentlogo {
+    float: left;
+    padding: 16px 0;
+    margin: 0;
+    border-left: 1px solid rgba(255, 255, 255, .1);
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    width: 24%;
+}
+
+#ttcmspaymentlogo ul li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 31px;
+    width: auto;
+}
+
+.footer-bottom-last {
+    float: left;
+    position: relative;
+    width: 100%;
+    background: #000;
+}
+
+.footer-bottom-link {
+    float: left;
+    width: auto;
+    padding: 0;
+}
+
+.footer-bottom-link p {
+    line-height: 3.8;
+    margin: 0 !important;
+}
+
+.footer-bottom-cms {
+    float: right;
+    width: auto;
+    padding: 12px 0;
+}
+
+.follow-us {
+    float: left;
+    width: 100%;
+    text-align: start;
+}
+
+.follow-us ul {
+    display: inline-block;
+    margin: 0;
+}
+
+.follow-us ul.list-unstyled li {
+    display: inline-block;
+    margin: 0 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: top;
+}
